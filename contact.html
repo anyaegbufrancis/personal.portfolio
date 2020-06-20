@@ -12,67 +12,87 @@
   />
   <script src="https://unpkg.com/scrollreveal@3.3.2/dist/scrollreveal.min.js"></script>
   <link href="https://fonts.googleapis.com/css2?family=Roboto:ital@1&display=swap" rel="stylesheet">
- <!-- <link rel="stylesheet" href="./style.css">-->
+ <link rel="stylesheet" href="./style.css">
 </head>
 
+<style>
+    body {
+        margin: 0;
+        padding: 0;
+        background-image: url("./Assets/Bgrnd.png");
+    }
+</style>
+
 
     <header>
 
-        <nav class="navbar navbar-dark bg-primary">
-            <a class="navbar-brand mx-auto" href="#">Francis Anyaegbu</a>
+        <nav class="navbar navbar-dark" style="background-color: #16aca4; font-weight: bolder; font-size: 10.5rem !important;">
+            <a class="navbar-brand mx-auto" href="#"><h2>Francis Anyaegbu</h2></a>
         </nav>
-           
-        <div class="container">   
-            <nav class="navbar navbar-expand-lg navbar-light bg-light">
-                <div class="collapse navbar-collapse rows">
-                    <ul class="navbar-nav mx-auto">
-                        <li class="nav-item"> 
-                            <a class ="nav-link active col" href="#">About</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class ="nav-link active col" href="#">Portfolio</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link active" href="#">Contact</a>
-                        </li>
-                    </ul>
-                </div>
-            </nav>
-        </div>
+        <nav class="navbar navbar-expand-sm navbar-light bg-light">
+            <div class="collapse navbar-collapse rows">
+                <ul class="navbar-nav mx-auto">
+                    <li class="nav-item" style="color: #ccc;"> 
+                        <a class ="nav-link active" href="#">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class ="nav-link active" href="#">Portfolio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
     <header>
 
-<body style="background-image: ;">
-        
-        <br>
+<body>
+
+    <br>
+
     
-    <div class="container">
-        <div>
-            <h1 class="text-left">Contact</h1>
-         
+    <div class="container bg-light">
+        <div  class="rows col-sm-12">
+            <br>
+            <h2 class="text-left" style="color: #16aca4;">Contact</h2>
+            <hr style="border-top: 3px solid #ccc;">
         </div>
-        <hr>
-        <form>
-            <div class="form-group">
-              <label for="exampleFormControlInput1">Name</label>
-              <input type="name" class="form-control" id="exampleFormControlInput1" placeholder="John Smith">
-            </div>
-           
-            <div class="form-group">
-              <label for="exampleFormControlSelect1">Email</label>
-              <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="example@gmail.com">
-            </div>
-            <div class="form-group">
-                <label for="exampleFormControlTextarea1">Message</label>
-                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-              </div>
-            <div>
-                <button type="submit" class="btn btn-primary">Submit</button>
-            </div>
-            
-        </form>
+        
+        <div class="rows col-sm-12">
+            <form>
+                <div class="form-group">
+                  <label for="PersonName">Name</label>
+                  <input type="PersonName" class="form-control" id="PersonName" placeholder="John Smith">
+                </div>
+                <div class="form-group">
+                  <label for="PersonEmail">Email</label>
+                  <input type="email" class="form-control" id="PersonEmail" placeholder="example@gmail.com">
+                </div>
+                <div class="form-group">
+                    <label for="CustomMessage">Message</label>
+                    <textarea class="form-control" id="CustomMessage" rows="8"></textarea>
+                  </div>
+                <div>
+                    <button type="submit" class="btn btn-primary" style="background-color: #16aca4; border: none;">Submit</button>
+                </div>
+                <br>
+            </form>
+        </div>
+        
     </div>
     
 </body>
+
+<footer style="margin-top: 45% !important;">
+    <nav class="navbar" style="background-color: #16aca4; padding: 0;height: 89x !important;">
+        <a class="navbar-brand mx-auto"></a>
+    </nav>
+    <nav class="navbar navbar-expand-sm" style="background-color: rgb(122, 116, 116); color: white; padding: 0; height: 70px !important;">
+        <div class="mx-auto">
+            <a class="navbar-nav mx-auto"> &copy Copyright</a>
+        </div>
+    </nav>    
+<footer>
 
     
 
