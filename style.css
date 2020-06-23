@@ -14,14 +14,13 @@ body {
         background-color: #16aca4;
         color: white;
         height: 100%;
-        min-height: 50px;
         top:0;
         font-size: 25px;
         position: absolute;
         padding-top: 15px;
         padding-left: 10px;
         padding-right: 10px;
-        margin-left: -190px;      
+        margin-left: -190px;    
         }
 #navbarSupportedContent {
     padding-right: -200px;
@@ -32,6 +31,11 @@ body {
     max-width: 970px;
     margin-left: 130px;
         }
+.text-left {
+    color: #16aca4;
+}
+
+
 /*hr Styling*/
 hr {
     border-top: 3px solid #ccc;
@@ -51,5 +55,91 @@ hr {
     padding: 0; 
     height: 80px !important
 }
-  
+.btn-primary {
+    background-color: #16aca4; 
+    border: none
+}
+
+/*Custom Styling for screen sizes of 980 - 8000px*/
+@media (max-width: 980px) and (min-width: 779px) {
+    /*Establish container sizes*/
+    .container{
+        max-width:550px;
+        margin-left: 30px;
+    }
+    /*Sets navbar brand starting location*/
+    .navbar-light .navbar-brand{
+        margin-left: -130px;
+    }
+    /*Sets Nav Bar items starting position from the left*/
+    .items {
+        margin-left: 490px !important;
+    }
+    /*Sets lower footer formating*/
+    .footer-lower-text {
+        padding-right: 150px !important;
+    }
+    /*Sets upper footer distance from the body*/
+    .footer-upper {
+        margin-top: 100% !important;
+    }
+}
+/*Custom Styling for screen sizes of 980 - 8000px*/
+@media (max-width: 780px) and (min-width: 639px) {
+     /*Establish container sizes*/
+    .container{
+        margin-left: 22px;
+    
+    }
+    /*Sets navbar brand starting location*/
+    .navbar-light .navbar-brand{
+        margin-left: -130px;
+    }
+    /*Sets Nav Bar items starting position from the left*/
+    .items {
+        margin-left: 350px !important;
+    }
+    /*Sets lower footer formating*/
+    .footer-lower-text {
+        padding-left: 80px !important;
+    }
+    /*Sets navbar position*/
+    .navbar {
+        width: 100%;
+    }
+    /*Sets upper footer distance from the body*/
+    .footer-upper {
+        margin-top: 100% !important;
+    }
+}
+
+@media (max-width: 640px) and (min-width: 200px) {
+    /*Sets nav formating*/
+    nav {
+        max-width: 670px;
+        text-align: center;
+        font-weight: bolder;
+    }
+    /*Sets footer formating*/
+    footer {
+        width: 670px;
+        margin-bottom: -10px;
+    }
+    /*Sets body formating*/
+    body {
+        width: 600px;
+    }
+    /*Sets Brand Position and alignment*/
+    .navbar-brand {
+        margin-left: -160px !important;
+        width: 650px;
+        text-align: center;
+    }
+    /*Sets upper footer distance from the body*/
+    .footer-upper {
+        margin-top: 100% !important;
+    }
+}
+
+           
 
