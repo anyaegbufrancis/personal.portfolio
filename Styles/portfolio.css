@@ -1,0 +1,197 @@
+/* Full page styling */ 
+* {
+    margin:0;
+    padding: 0;
+}
+html { 
+    position: relative; 
+    min-height: 100%; 
+  } 
+body{ 
+    background-image: url(../Images/Bgrnd.png); 
+    font-family: Verdana, Geneva, Tahoma, sans-serif; 
+    overflow-x: auto; 
+} 
+/*--Nav Bar and its content styling--*/ 
+.navbar{ 
+    padding:0px; 
+    border-top-color: #16aca4; 
+    border-bottom-style: solid; 
+    border-bottom-color:#16aca4; 
+    border-width: 1px; 
+} 
+.navbar-brand{ 
+    font-family:Verdana, Geneva, Tahoma, sans-serif; 
+    margin-left:5.5%; 
+    padding-left:2%; 
+    padding-right:2%; 
+    color:whitesmoke!important; 
+    height:100%; 
+    background-color: #16aca4; 
+    text-align: center; 
+    border-bottom: 1px solid #16aca4; 
+    padding-top:2%; 
+    padding-bottom: 2%; 
+    border-radius: 3px;
+} 
+.navbar-brand h3{ 
+    margin-bottom: 0%; 
+} 
+.navbar-nav{ 
+    margin-right: 10%; 
+} 
+.nav-item{ 
+    padding-left: 2%; 
+    padding-right: 2%; 
+    text-align: center; 
+} 
+#portfolio-border{ 
+    border-left-style: solid; 
+    border-right-style: solid;  
+    border-width: 1px;  
+    border-color: whitesmoke; 
+    padding-left: 10px;
+    padding-right: 10px;
+} 
+#about-border{
+    margin-right: 5px;
+}
+.bg-light{ 
+    background-color:white !important; 
+} 
+ 
+
+/*-- Portfolio Display Box Styling*/
+
+#main-container{ 
+    margin-top:3%; 
+    margin-left: 5%; 
+    margin-right:5%; 
+    margin-bottom: 5%; 
+    padding:0px; 
+    } 
+    #box-row{ 
+    background-color: white; 
+    border: 1px solid whitesmoke; 
+    max-width:90%; 
+    margin-left:2%; 
+    margin-bottom: 10%; 
+    } 
+    #subject{ 
+    color: #16aca4; 
+    padding-left:1%; 
+    padding-right: 0%; 
+    padding-bottom:1%; 
+    max-width:95%; 
+    padding-top:3%; 
+    margin-left:2.5%; 
+    margin-right:2.5%; 
+    margin-bottom:4%; 
+    border-bottom:2px solid rgb(223, 218, 218);
+    } 
+    #portfolio-picture{ 
+    padding: 0%; 
+    min-width:50%; 
+    max-width: 50%; 
+    } 
+    #portfolio-picture img{ 
+    object-fit: cover; 
+    width:90%; 
+    margin-left:5%; 
+    margin-right:5%; 
+    } 
+    #flags{ 
+    width:90%; 
+    height:20%; 
+    background-color: #16aca4; 
+    margin-left:5%; 
+    margin-right:5%; 
+    bottom:20%; 
+    } 
+    #flags h4{ 
+    text-align: center; 
+    color: white; 
+    padding-bottom: 0%; 
+    padding-top: 6%; 
+    margin:0; 
+    } 
+
+    /*--Footer Styling----*/
+    footer{     
+        width:100%; 
+        border-top: 10px solid #16aca4; 
+        height:100px; 
+        color:whitesmoke; 
+        font-size: smaller; 
+        background-color:#666060; 
+        text-align: center; 
+        clear: both;
+    
+    } 
+
+/* styling for responsivity */ 
+/*---For Screen Size 768 or less*/
+@media (max-width:767px){ 
+    .navbar-nav{ 
+        flex-direction: row; 
+        justify-content: center; 
+        margin-right:0%; 
+    } 
+    #about-border{
+        margin-right: 25px;
+    }
+    .navbar-brand{ 
+        min-width: 100%; 
+        padding-left:9%; 
+        margin-left:0%; 
+        margin-right:auto; 
+        padding-top:2%; 
+        padding-bottom: 2%; 
+    } 
+    #main-container{ 
+        min-width: 96%; 
+        margin-left:2%; 
+        margin-right:2%; 
+        } 
+    #box-row{ 
+        min-width: 94%; 
+        margin-left:3%; 
+        margin-right: 3%; 
+        margin-bottom: 10%; 
+        } 
+    #portfolio-picture{ 
+        margin-left: 5%; 
+        margin-right: 5%; 
+        min-width:90%; 
+        max-width: 90%; 
+        
+        } 
+    #flags h4{ 
+        text-align: center; 
+        color: white; 
+        padding-bottom: 0%; 
+        padding-top: 8%;  
+        } 
+    #subject{
+        margin-left: 8%;
+    }
+    }
+
+@media (max-width:640px){ 
+    #main-container{ 
+        min-width: 100%; 
+        margin-left:0%; 
+        margin-right:0%; 
+    } 
+    #box-row{ 
+        min-width: 100%; 
+        margin-left:0%; 
+        margin-right: 0%; 
+        margin-bottom: 10%; 
+    } 
+    #main-cont{ 
+        min-width: 100%; 
+        margin-left:0%; 
+        margin-right:0%; 
+    } 
+    }

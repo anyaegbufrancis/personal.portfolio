@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<!-- Head Section with bootstrap CDN and styling link-->
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+        integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="stylesheet" href="../Styles/contact.css">
+    <link rel="icon" href="../Images/jb32.JPG">
+    <title>Francis - Contact</title>
+</head>
+
+<!--Body wraps the navbar, the body and the footer sections-->
+
+<body>
+    <!--Navbar Contents-->
+
+    <nav class="navbar navbar-expand-md navbar-light bg-light">
+        <a class="navbar-brand">
+            <h3 class="Logo">Francis Anyaegbu</h3>
+        </a>
+        <div class="collapse navbar-collapse show" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item" id="about-border">
+                    <a class="nav-link" alt="My Home Page" href="../index.html">About</a>
+                </li>
+                <li class="nav-item" id="portfolio-border">
+                    <a class="nav-link" alt="My Portfolio Page" href="./portfolio.html">Portfolio</a>
+                </li>
+                <li class="nav-item" id="contact-border">
+                    <a class="nav-link" alt="My Contact Page" href="./contact.html">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- General Page Container -->
+    <main class="container container-xs container-sm container-md container-lg" id="main-cont">
+        <div class="row">
+            <section class="col-xs-12 col-sm-12 col-md-9 col-lg-7" id="main-row">
+                <div class="row">
+                    <!-- Contact takes row width-->
+                    <div class="col-12" id="main-div">
+                        <h3>Contact</h3>
+                    </div>
+                    <!-- Data Form - Takes the whole width -->
+                    <div class="col-12">
+                        <form>
+                            <div class="form-group">
+                                <label for="NameForm">
+                                    <h5>Name</h5>
+                                </label>
+                                <input type="email" class="form-control" placeholder="Your Name">
+                            </div>
+                            <div class="form-group">
+                                <label for="EmailForm">
+                                    <h5>Email address</h5>
+                                </label>
+                                <input type="email" class="form-control" placeholder="youremail@gmail.com">
+                            </div>
+                            <div class="form-group">
+                                <label for="TextArea">
+                                    <h5>Message</h5>
+                                </label>
+                                <textarea class="form-control" rows="7"></textarea>
+                            </div>
+                            <button type="button" class="btn btn-primary">
+                                Submit
+                            </button>
+                        </form>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </main>
+
+
+    <!-- Footer Section: wrapped in the main body -->
+    <footer class="footer">
+        <div class="row" style="min-height: 100%;">
+            <div class="col-12 align-self-center">
+                <a class="fa fa-copyright"> &copy Copyright</a>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
