@@ -8,9 +8,10 @@ The key requirement of this website is that it has to be responsive on multiple 
 ## My Approach:
 
 # Design Stage
+
 I used the following approach:
 
-Since a picture was shared, there was no need for drawing the requirement and ensuring that I understood it.
+There was no need to design a wireframe as one was already shared.
 
 Using basing columnar decisions, how many rows and columns are decided for each page. This depends on my understanding of the images and text that goes into each area.
 

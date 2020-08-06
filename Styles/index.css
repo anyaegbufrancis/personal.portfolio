@@ -3,6 +3,7 @@
     margin:0;
     padding: 0;    
 }
+
 html { 
     position: relative; 
     min-height: 100%; 
@@ -14,6 +15,9 @@ body{
 } 
 
 /*Navbar styling*/
+#nav {
+    font-size: 24px;
+}
 .navbar{ 
     padding:0px; 
     background-color: #ffffff; 
@@ -67,8 +71,8 @@ body{
 #main-cont{ 
     margin-top:3%; 
     margin-left: 5%; 
-    margin-right:auto; 
-    margin-bottom: 5%;     
+    /* margin-right:auto;  */
+    margin-bottom: 15%;     
 } 
 #main-row{ 
     background-color: white; 
@@ -99,7 +103,7 @@ body{
      margin-right:5%; 
      width: 35%; 
      float: left; 
-     border-radius: 50%;
+     border-radius: 20%;
      position: relative;
 } 
 #my-intro{ 
@@ -108,6 +112,9 @@ body{
      color: black; 
      font-size: 14px;
  } 
+.body-text {
+    font-size: 20px;
+}
  
 /*--Footer Styling----*/
 footer{     
@@ -118,7 +125,8 @@ footer{
     font-size: smaller; 
     background-color:#666060; 
     text-align: center; 
-    clear: both;
+    bottom: 0;
+    position: absolute;
     } 
 
 /*---Page Responsivity---*/
