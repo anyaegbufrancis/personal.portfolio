@@ -30,6 +30,28 @@ I was able to embed an icon to the title. I grouped all the pages into the folde
 
 The result was tested using mostly google inspect. I tried it on multiple screen sizes while introducing further styling to achieve the end result.
 
+# Project Landing Page
+
+<img src="./Images/landingPage.jpg"/>
+
+# Project Portforlio Page
+
+<img src="./Images/PortforlioPage.jpg"/>
+
+# Project Contact Page
+
+<img src="./Images/contactPage.jpg"/>
+
+# Link To Project Deployment:
+
+Please click [here](https://anyaegbufrancis.github.io/responsive.portforlio/) to view the github hosted project.
+
+# Link To Project Repo:
+
+Please click [here](https://github.com/anyaegbufrancis/responsive.portforlio) to view the github hosted project.
+
+
+
 # OTHER EFFORTS
 
 I tried to improve on my code arrangement. I also tried to use HTML semantic tags wherever I could.
