@@ -48,7 +48,7 @@ Please click [here](https://anyaegbufrancis.github.io/responsive.portforlio/) to
 
 # Link To Project Repo:
 
-Please click [here](https://github.com/anyaegbufrancis/responsive.portforlio) to view the github hosted project.
+Please click [here](https://github.com/anyaegbufrancis/responsive.portforlio) to view the github repository for this project.
 
 
 
