@@ -119,6 +119,9 @@ body{
     padding-top: 6%; 
     margin:0; 
     } 
+    img {
+        border-radius: 5px;
+    }
     
 
     /*--Footer Styling----*/
