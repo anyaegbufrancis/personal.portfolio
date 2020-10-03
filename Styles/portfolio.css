@@ -19,6 +19,7 @@ body{
     border-bottom-color:#b2b1bb; 
     border-width: 15px; 
 } 
+ 
 #nav {
     font-size: 24px;
     font-style: oblique;
@@ -29,10 +30,9 @@ body{
     padding-left:1rem; 
     padding-right:1rem; 
     color:whitesmoke!important; 
-    height:100%; 
     background-image: url(../Images/sdnImage.jpg);
-    padding-top:2rem; 
-    padding-bottom: 2rem; 
+    padding-top:1rem; 
+    padding-bottom: 1rem; 
     border-radius: 5%;
     border: double 5px #b2b1bb;
     
@@ -103,10 +103,11 @@ h1.Logo {
     background-color: white; 
     border: 1px solid whitesmoke; 
     max-width:100%; 
-    margin-bottom: 10%; 
+    margin-bottom: 10rem; 
     border-radius: 2rem;
     border: rgb(55, 55, 68) double 0.3rem;
     background-image: url(../Images/img.jpg);
+    margin-top: 10rem;
     } 
     #subject{ 
     color:rgb(14, 14, 206); 
@@ -174,7 +175,7 @@ h1.Logo {
     /*--Footer Styling----*/
     footer{     
         width:100%; 
-        border-top: 10px solid #b2b1bb; 
+        border-top: 15px solid #b2b1bb; 
         height:100px; 
         color:whitesmoke; 
         font-size: smaller; 
