@@ -85,9 +85,6 @@ h1.Logo {
 #about-border{
     margin-right: 5px;
 }
-.bg-light{ 
-    background-color:white !important; 
-} 
  
 
 /*-- Portfolio Display Box Styling*/
@@ -99,6 +96,7 @@ h1.Logo {
     margin-bottom: 2%; 
     max-width: 73%;
     } 
+
     #box-row{ 
     background-color: white; 
     border: 1px solid whitesmoke; 
@@ -109,6 +107,7 @@ h1.Logo {
     background-image: url(../Images/img.jpg);
     margin-top: 10rem;
     } 
+    
     #subject{ 
     color:rgb(14, 14, 206); 
     padding-left:1%; 
@@ -172,11 +171,34 @@ h1.Logo {
     }
     
 
-    /*--Footer Styling----*/
-    footer{     
+    .social-icons {
+        text-align: center;
+    }
+    .social-icons li {
+        display:inline-block;
+        list-style-type:none;
+        -webkit-user-select:none;
+        -moz-user-select:none;
+        background-color:whitesmoke;
+    }
+    .social-icons li a {
+        border-bottom: none;
+    }
+    .social-icons li img {
+        width:70px;
+        height:70px;
+        margin-right: 20px;
+        margin-left: 10px;
+        margin-top: 10px;
+        border: none;
+    } 
+    ul {
+        margin-bottom: 0rem !important;
+    }
+     footer{     
         width:100%; 
         border-top: 15px solid #b2b1bb; 
-        height:100px; 
+        height:140px; 
         color:whitesmoke; 
         font-size: smaller; 
         background-color:#666060; 
