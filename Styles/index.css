@@ -112,14 +112,13 @@ a#nav.nav-link {
     margin-right: 2.5%;
     margin-left: 2%;
     } 
-img {
+#portfolio-picture img {
     display: block;
     max-width: 100%;
     height: auto;
     border-radius: 50px;
 }
-    
-    
+
 #my-intro{ 
      margin-left:2%; 
      margin-right:2%;
@@ -131,18 +130,41 @@ img {
     color:  black;
 }
  
-/*--Footer Styling----*/
-footer{     
+ /*--Footer Styling----*/
+ .social-icons {
+    text-align: center;
+}
+.social-icons li {
+    display:inline-block;
+    list-style-type:none;
+    -webkit-user-select:none;
+    -moz-user-select:none;
+    background-color:whitesmoke;
+}
+.social-icons li a {
+    border-bottom: none;
+}
+.social-icons li img {
+    width:70px;
+    height:70px;
+    margin-right: 20px;
+    margin-left: 10px;
+    margin-top: 10px;
+} 
+ul {
+    margin-bottom: 0rem !important;
+}
+ footer{     
     width:100%; 
-    border-top: 10px solid #16aca4; 
-    height:100px; 
+    border-top: 15px solid #b2b1bb; 
+    height:140px; 
     color:whitesmoke; 
     font-size: smaller; 
     background-color:#666060; 
     text-align: center; 
-    bottom: 0;
-    position: absolute;
-    } 
+    clear: both;
+
+} 
 
 /*---Page Responsivity---*/
 /*---For Screen Size 767 or less*/
@@ -214,6 +236,10 @@ footer{
     }
 }   
         
+
+
+
+
 
     
         
