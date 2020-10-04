@@ -66,16 +66,8 @@
                             <h2>Submit</h2>
                         </button>
                     </form>
-                </div>
-        </div>
-    </main>
-
-
-    <!-- Footer Section: wrapped in the main body -->
-    <footer class="footer bg-dark">
-        <div class="row" style="min-height: 100%;">
-            <div class="col-12 align-self-center">
-                <a class="fa fa-copyright"> &copy Copyright</a>
+                    
+                <p id='phone' style='display: none'>Phone: +971-52-319-2446</p>   
                 <ul class="social-icons">
                     <li>
                         <a href="https://www.linkedin.com/in/anyaegbufrancistogafcciepmp/" target="_blank">
@@ -98,11 +90,36 @@
                             <img src="../Images/cv.jpg" alt="CV" />
                         </a>
                     </li>
+                    <li>
+                        <button type='button' onclick="togglePhone()" style="border: none;">
+                            <img src="../Images/phone.jpg" alt="Phone Number" onclick=togglePhone()/>
+                        </button>
+                    </li>
                 </ul>
+                </div>
+        </div>
+    </main>
+
+
+    <!-- Footer Section: wrapped in the main body -->
+    <footer class="footer bg-dark">
+        <div class="row" style="min-height: 100%;">
+            <div class="col-12 align-self-center">
+                <a class="fa fa-copyright"> &copy Copyright</a>
             </div>
 
         </div>
     </footer>
+    <script>
+    function togglePhone() {
+    var text = document.getElementById("phone");
+    if (text.style.display === "none") {
+        text.style.display = "block";
+    } else {
+        text.style.display = "none";
+    }
+    }
+    </script>
 
 </body>
 

@@ -50,8 +50,6 @@ a#nav.nav-link {
     border-right-style: solid;  
     border-width: 1px;  
     border-color: whitesmoke; 
-    /* padding-left: 10px;
-    padding-right: 10px; */
 } 
 #about-border{
     margin-right: 5px;
@@ -126,7 +124,7 @@ a#nav.nav-link {
      font-size: 14px;
  } 
 .body-text {
-    font-size: 28px;
+    font-size: 24px;
     color:  black;
 }
  
